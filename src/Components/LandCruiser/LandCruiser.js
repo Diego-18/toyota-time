@@ -13,14 +13,17 @@ export default function LandCruiser() {
 					width="80"
 					height="80"
 				/>
-				<h1 className="cstm__label text-white">Land Cruiser</h1>
+
 				{infoLandCruiser.map((info) => {
 					return (
 						<div className="container">
+							<h1 className="cstm__label text-white">
+								{info.name}
+							</h1>
 							<div className="row p-2">
 								<div className="col-12">
 									<p className="text-justify">
-										{info.descripcion}
+										{info.description}
 									</p>
 								</div>
 							</div>

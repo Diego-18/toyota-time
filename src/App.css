@@ -16,6 +16,11 @@
 	color: #fff;
 }
 
+.Corolla {
+	background: #fff;
+	color: #de272f;
+}
+
 @media (max-width: 991px) {
 	.Home {
 		height: 100rem;

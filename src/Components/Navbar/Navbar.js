@@ -70,6 +70,19 @@ function Navbar() {
 									Land Cruiser
 								</Link>
 							</li>
+							<li className="nav-item">
+								<Link
+									className="nav-link lines"
+									activeClass="active"
+									to="Corolla"
+									spy={true}
+									smooth={true}
+									offset={-90}
+									duration={500}
+								>
+									Corolla
+								</Link>
+							</li>
 						</ul>
 					</div>
 				</div>

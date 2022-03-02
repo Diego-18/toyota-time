@@ -1,0 +1,68 @@
+[
+	{
+		"name": "Corolla",
+		"description": "El vehículo más popular del mundo. Esa “etiqueta” es única y está en manos del Toyota Corolla. El primer modelo se presentó en Japón en 1966. Disponible con dos carrocerías distintas, sedán de dos y cuatro puertas y familiar de dos puertas, fue diseñado para ser un “auto para la gente”, si bien ofrecía una buena calidad de fabricación y un equipamiento destacado, con características que solo acostumbraban a verse en segmentos superiores. \n Inspirado en la palabra en latín para “corona de flores”, el nombre “Corolla” fue elegido con la esperanza de que el vehículo floreciera en el mercado del automóvil. Y eso es precisamente lo que hizo: en tres años, la primera generación se convirtió en el vehículo más vendido en Japón y su popularidad pronto se propagó a otros países.",
+		"modelos": [
+			{
+				"name": "Primera generación",
+				"year": "(1966 - 1970)",
+				"description": "Encabezados por Tatsuo Hasegawa, responsable de desarrollo, conceptualizó Corolla como un vehículo con calidad, estilo y economía, los diseñadores de Corolla se propusieron cautivar el corazón del gran público. El objetivo principal era crear un modelo deportivo, tanto por imagen como por tacto de conducción. Dado su éxito en Japón, este nuevo vehículo se ofrecía con diversas carrocerías y adoptaba numerosas tecnologías innovadoras nunca antes vistas en el mercado japonés, como la suspensión MacPherson o la transmisión de cuatro velocidades. La gama del modelo constaba de un sedán de dos puertas, otro de cuatro puertas y un familiar de dos puertas, solo bastaron dos años para que se presentara en el mercado estadounidense."
+			},
+			{
+				"name": "Segunda generación",
+				"year": "(1970 - 1974)",
+				"description": "Esta generacion tuvo algunos ajustes, pues el ingeniero en jefe en turno, Shiro Sasaki, creía que Corolla debía ser más espacioso y tener un motor más grande. Evoluciono a la suspensión trasera de ballesta más grande mejorando el confort de marcha y el manejo, el motor de 1.1L de cuatro cilindros, se cambiaba por uno de 1.2L hasta 1.6L, dependiendo del modelo. En 1972, con su renombrado motor 2T-G, la versión Corolla Levin se convirtió en el vehículo preferido por los amantes de los deportivos y en el segundo vehículo más vendido del mundo."
+			},
+			{
+				"name": "Tercera generación",
+				"year": "(1974 - 1979)",
+				"description": "El año 1974, fue encabezado por Shiro Sasaki y fue un punto de inflexión en la historia del Corolla. La estricta normativa sobre emisiones obligó a rediseñar el motor y el sistema de escape para poder comercializar la nueva generación. A raíz de ello, Toyota encabezó el desarrollo de los convertidores catalíticos, que se siguen utilizando hoy en día. Esta serie también se benefició con otra innovación tecnológica: el túnel de viento. Este avance le dio un diseño exterior mejorado para cortar el aire con mayor eficiencia. Además, el interior, la calidad y la ergonomía también dieron un salto de calidad, y el Corolla comenzó a posicionarse como un modelo económico que ofrecía características de los vehículos de gamas superiores."
+			},
+			{
+				"name": "Cuarta generación",
+				"year": "(1979 - 1983)",
+				"description": "En 1979, tras atravesar otra crisis del petróleo por sus altos precios debido a los conflictos en Medio Oriente. La 4a generación, ahora a cargo de Fumio Agetsuma, saltó a la escena mundial. Se había replanteado como vehículo familiar lujoso, pero económico de combustible, Agetsuma introdujo un motor a diésel de 1.8L con una transmisión y automática de 3 velocidades y para evitar romper radicalmente con un diseño y una concepción que contaba con unos clientes cada vez más fieles, el Corolla evolucionó dentro de la continuidad, con unas líneas nítidas sobre un estilo más cuadrado. Bajo la carrocería, el confort y la estabilidad mejoraban con una nueva suspensión helicoidal de cuatro brazos."
+			},
+			{
+				"name": "Quinta generación",
+				"year": "(1983 - 1987)",
+				"description": "En su función como responsable de desarrollo, Fumio Agetsuma se propuso que esta generación sea lo más innovador posible. Este nuevo modelo fue el primero en ser creado con la ayuda de una computadora, lo que permitió ahorrar tiempo y recursos en el diseño del motor y del exterior. Con su parte delantera inclinada y su forma redondeada, el nuevo vehículo fue el primero de la serie en equipar tracción delantera, todo un reto para los ingenieros. La opción coupé con tracción trasera ponían foco en las características de deportivas mediante un motor de 1.5 o de 1.6 litros. Esta generacion fue una de las más populares por su producción de unidades a nivel global y su llegaba a 116 países."
+			},
+			{
+				"name": "Sexta generación",
+				"year": "(1987 - 1991)",
+				"description": "En 1987, la palabra clave en el desarrollo del nuevo Corolla fue calidad: tanto en las sensaciones que transmitía el vehículo como en la forma en que haría sentir a sus propietarios. Para los ingenieros, era esencial que este nuevo vehículo no solo satisficiera a sus dueños, sino que les cautivara con una mayor calidad. Se propusieron más de 2.000 mejoras a más de 100 fabricantes de componentes para elevar el rendimiento, desde la reducción de los niveles de ruido a la introducción de materiales blandos al tacto en la consola y los botones."
+			},
+			{
+				"name": "Septima generación",
+				"year": "(1991 - 1995)",
+				"description": "Fue una de las series que más tuvo que combatir con los cambios en la industria y la llegada de nuevos competidores. La estructura y el chasis se habían modificado con respecto a su antecesor introduciendo una forma más aerodinámica y un look deportivo, los clientes no quedaron del todo conformes con los cambios percibidos. Su estética tomó líneas más redondeadas y los diseñadores pusieron especial atención en ofrecer un espacio más amplio para toda la familia. Se fabricó en Japón, Estados Unidos, Canadá y Venezuela."
+			},
+			{
+				"name": "Octava generación",
+				"year": "(1995 - 1999)",
+				"description": "Con una economía retraída en Japón, el equipo de desarrollo se propuso crear un modelo que regrese a sus orígenes, siguiendo el lema de 'un auto para la gente'. Esta generación se transformó en un vehículo más eficiente y más económico para comprar y mantener. El ingeniero responsable de su desarrollo fue Takayasu Honda. Una de las prioridades fue la seguridad, por eso se añadieron bolsas de aire SRS y mejoras en reducción de peso del vehículo que ayudarían en caso de colisiones. La estrategia de Toyota fue excelente porque lograron recuperarlo, convirtiéndolo en un vehículo que transcendió generaciones y nacionalidades y evolucionó hasta convertirse en el más vendido en Japón."
+			},
+			{
+				"name": "Novena generación",
+				"year": "(2000 - 2006)",
+				"description": "Esta generación de Corolla, ahora liderada por Takeshi Yoshida, se centró en rendimiento y calidad, pero también a un rediseño que lo hizo más popular en generaciones de mayor edad.Uno de los grandes cambios de este modelo fue en esta generación porque por primera vez se diseñó en Europa. Este ejemplar, cuya misión era romper con el pasado y fijar una vara para el siglo XXI, fue desarrollado cero con el objetivo que sea popular y económico. Sumó una gran variedad de motorizaciones, mejoró en su confort de marcha y se destacó por la calidad de su interior."
+			},
+			{
+				"name": "Decima generación",
+				"year": "(2006 - 2013)",
+				"description": "Con el lanzamiento de la décima generación, llegó una nueva dirección de diseño. El responsable de desarrollo, Soichiro Okudaira, quiso que el nuevo Corolla tuviera una perspectiva y una escala mundial. El rendimiento dinámico estaba a la altura de los mejores de Europa, mientras que la facilidad de uso y el espacio se potenciaron para el mercado norteamericano. Se rediseñaron los interiores, la parrilla delantera y las salpicaderas. Por primera vez, se incorporó el TRAC (Traction Control System) como equipo estándar, además, los ingenieros se guiaron por la regla de la impresión en cinco minutos, por la que los clientes apreciarían la calidad de este nuevo modelo a los cinco primeros minutos de conducirlo."
+			},
+			{
+				"name": "Décima primera generación",
+				"year": "(2013 - 2019)",
+				"description": "Llegó al mercado con el título del 'vehículo más vendido del mundo'. Con más de 44 millones de Corolla comercializados en más de 50 años, el lanzamiento introdujo un nuevo estilo exterior, con un particular acento sobre la calidad percibida y unos niveles superiores de equipamiento tecnológico y de seguridad. Al igual que en la generación anterior, Toyota presentó dos versiones alternativas, las cuales diferían mucho entre sí en cuanto a sus diseños. Estas nuevas generaciones fueron desarrolladas para satisfacer las demandas de los distintos mercados, siendo la versión E160 destinada al mercado japonés y la E170 a otros mercados, entre ellos el de América."
+			},
+			{
+				"name": "Décima segunda generación",
+				"year": "(2019 - Actualidad)",
+				"description": "Este nuevo modelo está construido sobre la nueva plataforma GA-C, derivada de la Nueva Arquitectura Global de Toyota (TNGA), que, según la marca, permite combinar un diseño atractivo con un nivel superior de estabilidad y tacto de conducción. En cuanto a su diseño, la parte delantera tiene una evolución de la filosofía de diseño 'Under Priority' y el estilo posterior reproduce la ejecución frontal mediante la forma del paragolpes y el diseño trapezoidal invertido del portón del baúl. Esta evolución sumó motorizaciones híbridas y agregó equipamiento de confort y seguridad. La 12a generación conserva su durabilidad, calidad y rendimiento, y ofrece una versión Hybrid."
+			}
+		]
+	}
+]

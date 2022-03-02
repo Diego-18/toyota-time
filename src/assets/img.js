@@ -48,6 +48,18 @@ import img46 from "./img/Rusticos/LC-4.jpg";
 import img47 from "./img/Rusticos/LC-5.jpg";
 import img48 from "./img/Rusticos/LC-6.jpg";
 import img49 from "./img/Rusticos/LC-7.jpg";
+import img50 from "./img/Corolla/co1.jpg";
+import img51 from "./img/Corolla/co2.jpg";
+import img52 from "./img/Corolla/co3.jpg";
+import img53 from "./img/Corolla/co4.jpg";
+import img54 from "./img/Corolla/co5.jpg";
+import img55 from "./img/Corolla/co6.jpg";
+import img56 from "./img/Corolla/co7.jpg";
+import img57 from "./img/Corolla/co8.jpg";
+import img58 from "./img/Corolla/co9.jpg";
+import img59 from "./img/Corolla/co10.jpg";
+import img60 from "./img/Corolla/co11.jpg";
+import img61 from "./img/Corolla/co12.jpg";
 
 export default [
 	img0,
@@ -100,4 +112,16 @@ export default [
 	img47,
 	img48,
 	img49,
+	img50,
+	img51,
+	img52,
+	img53,
+	img54,
+	img55,
+	img56,
+	img57,
+	img58,
+	img59,
+	img60,
+	img61,
 ];

@@ -1,0 +1,24 @@
+.cstm__label {
+	color: #de272f;
+	text-align: center;
+	text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+	font-size: 4rem;
+}
+
+.cstm__sublabel {
+	padding-top: 6rem;
+	color: #fff;
+	text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+@media (max-width: 991px) {
+	.cstm__label {
+		padding-top: 5rem;
+	}
+
+	.cstm__sublabel {
+		text-align: center;
+	}
+}

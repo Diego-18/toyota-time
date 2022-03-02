@@ -1,0 +1,39 @@
+.card__history {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0.5rem;
+	background: #de272f;
+	border: 2px solid #de272f;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+.cstm__img {
+	height: 10rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.card-text {
+	font-size: 0.8rem !important;
+}
+
+.card__history,
+.cstm__img {
+	width: 20rem;
+}
+
+@media (max-width: 991px) {
+	.card__history,
+	.cstm__img {
+		width: 30rem;
+	}
+	.card__history {
+		height: 20rem;
+	}
+	.cstm__img {
+		height: 14.5rem;
+	}
+}

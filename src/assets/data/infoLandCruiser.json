@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Land-Cruiser",
+		"descripcion": "En el 2021 Toyota celebra el setenta aniversario del Toyota Land Cruiser, lo que lo convierte en una de las sagas más longevas y exitosas de la historia. El Land Cruiser nació en 1951 claramente inspirado en el Jeep de las tropas americanas y desde entonces se ha quedado. A lo largo de estas siete décadas, el Land Cruiser se ha convertido casi en una marca en sí mismo. Su influencia es tan grande en el mundo del 4×4, que la afición al mundo del todo terreno se podría dividir entre los que idolatran al Land Cruiser y los que creen en el dios Wrangler, dos «religiones» a las que podríamos sumar una tercera de fieles al Defender, pero que están algo decepcionados con la última evolución de su ídolo.",
+		"referencia": "https://www.autocasion.com/actualidad/reportajes/historia-toyota-land-cruiser",
+		"modelos": [
+			{
+				"name": "Toyota Land Cruiser BJ",
+				"year": "1951 - 1955",
+				"description": "De esa experiencia nació en 1951 el BJ, (que algunos llaman Toyota Jeep, el primer Toyota con capacidad todoterreno y cuatro ruedas motrices. Inspirado en el Jeep Willys americano, tenía una mayor distancia entre ejes (la plataforma derivaba de un camiñón Toyota) y un motor de gasolina de 3.4 litros y seis cilindros, basado en un antiguo diseño de Chevrolet."
+			},
+			{
+				"name": "Toyota Land Cruiser Serie 20",
+				"year": "1955 - 1960",
+				"description": "El único motor disponible era un gasolina de 3.386 cc con seis cilindros en línea, que rendía 135 CV de potencia a 3.800 rpm. y alcanzaba 120 km./h. Tenía tracción trasera, con el eje delantero conectable mediante una gran palanca colocada en el centro del salpicadero."
+			},
+			{
+				"name": "Toyota Land Cruiser Serie 40",
+				"year": "1961 - 1984",
+				"description": "Motores diésel y gasolina de 4 y 6 cilindros, más potente, más robusto y con mayor variedad de carrocerías que su predecesor, la Serie 40 del Land Cruiser es hoy en día cotizada como vehículo clásico y como todo terreno."
+			},
+			{
+				"name": "Toyota Land Cruiser serie 70",
+				"year": "1984 - 2003",
+				"description": "A partir de 1984, esta serie del Toyota Land Cruiser empezó a tener multitud de modelo debido a que se dividieron los modelos destinados al todoterreno duro y profesional (los Heavy Duty, con suspensión por ballestas) y las versiones enfocadas hacia el ocio, La serie Station Wagon, conocida en España como Land Cruiser II (Prado o Bundera en algunos mercados)."
+			},
+			{
+				"name": "Toyota Mega Cruiser: el martillo Japonés",
+				"year": "1996",
+				"description": "En 1996 la respuesta al Hummer fue esta mole que seguramente desconocías porque no salió nunca de Japón. Se trata del Toyota Mega Cruiser, un 4×4 de enormes dimensiones pensado para el ejército y cuerpos de emergencias especiales japoneses. En seis años se fabricaron sólo 148 ejemplares."
+			},
+			{
+				"name": "Land Cruiser Serie 120",
+				"year": "2003",
+				"description": "Tomando como punto de partida la misma plataforma que los modelos más 4×4 del Land Cruiser, estas series añadían un plus de confort, lujo y equipamiento, algo similar a lo que hacía Land Rover con los modelos Range Rover."
+			},
+
+			{
+				"name": "Toyota FJ Cruiser",
+				"year": "2003 - 2018",
+				"description": "Su gran tamaño lo limita a la hora de realizar travesías 4×4 por zonas angostas, pero su peculiar estética es muy seductora, además de contar con excentricidades muy llamativas como las puertas traseras que se abren a contramarcha."
+			},
+			{
+				"name": "La gama 4×4",
+				"year": "2021",
+				"description": "La oferta de auténticos 4×4 está compuesta de dos líneas: la de la pick up Hilux y la del Land Cruiser. Gracias a sus variedad de versiones y acabados, dentro de cada una de ellas Toyota ofrece soluciones con un enfoque más profesional o con equipamientos y acabados con un enfoque más lúdico, pero todas ellas con unas excelentes cualidades 4×4."
+			}
+		]
+	}
+]

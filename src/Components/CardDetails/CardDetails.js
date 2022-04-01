@@ -8,10 +8,10 @@ export default function CardDetails() {
 
 	return (
 		<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			{infoToyota.map((info) => {
+			{infoToyota.map((info, index) => {
 				count++;
 				return (
-					<div className="card mb-4 card__history">
+					<div className="card mb-4 card__history" key={index}>
 						<div className="row g-0">
 							<div className="col-xs-6 col-sm-6 col-md-6 col-xl-6 col-lg-6">
 								<img

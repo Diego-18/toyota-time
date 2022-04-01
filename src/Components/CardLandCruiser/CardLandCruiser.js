@@ -8,13 +8,13 @@ export default function CardLandCruiser() {
 
 	return (
 		<div className="row p-2">
-			{infoLandCruiser.map((info) => {
+			{infoLandCruiser.map((info, index) => {
 				return (
-					<div className="col-xl-12">
-						{info.modelos.map((modelo) => {
+					<div className="col-xl-12" key={index}>
+						{info.modelos.map((modelo, index) => {
 							count++;
 							return (
-								<div className="container__card">
+								<div className="container__card" key={index}>
 									<div
 										className="card bg-dark text-white card__lc"
 										// onMouseEnter={() => setIsShown(true)}

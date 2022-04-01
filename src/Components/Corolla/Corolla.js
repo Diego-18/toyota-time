@@ -13,9 +13,9 @@ export default function Corolla() {
 					width="80"
 					height="80"
 				/>
-				{infoCorolla.map((info) => {
+				{infoCorolla.map((info, index) => {
 					return (
-						<div className="container">
+						<div className="container" key={index}>
 							<h1 className="cstm__label">{info.name}</h1>
 							<div className="row p-2">
 								<div className="col-12">

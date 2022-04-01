@@ -14,9 +14,9 @@ export default function LandCruiser() {
 					height="80"
 				/>
 
-				{infoLandCruiser.map((info) => {
+				{infoLandCruiser.map((info, index) => {
 					return (
-						<div className="container">
+						<div className="container" key={index}>
 							<h1 className="cstm__label text-white">
 								{info.name}
 							</h1>

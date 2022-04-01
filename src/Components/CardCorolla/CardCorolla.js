@@ -8,13 +8,13 @@ export default function CardCorolla() {
 
 	return (
 		<div className="row p-2">
-			{infoCorolla.map((info) => {
+			{infoCorolla.map((info, index) => {
 				return (
-					<div className="col-xl-12">
-						{info.modelos.map((modelo) => {
+					<div className="col-xl-12" key={index}>
+						{info.modelos.map((modelo, index) => {
 							count++;
 							return (
-								<div className="container__card">
+								<div className="container__card" key={index}>
 									<div className="card bg-dark text-white card__co">
 										<img
 											src={img[count]}

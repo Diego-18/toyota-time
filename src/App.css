@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+:root {
+	--primary-color: #de272f;
+	--secondary-color: #fff;
+	--shadow-color: rgba(0, 0, 0, 0.5);
+}
+
 .Home {
 	padding-top: 5rem;
 	background: url("./assets/img/Toyota/bg-toyota.jpg") no-repeat center center fixed;
@@ -11,13 +17,13 @@
 }
 
 .LandCruiser {
-	background: #de272f;
-	color: #fff;
+	background: var(--primary-color);
+	color: var(--secondary-color);
 }
 
 .Corolla {
-	background: #fff;
-	color: #de272f;
+	background: var(--secondary-color);
+	color: var(--primary-color);
 }
 
 @media (max-width: 991px) {

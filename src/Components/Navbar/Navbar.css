@@ -1,9 +1,9 @@
 .cstm-navbar {
 	background-color: #fff;
-	border-bottom: 1px solid #de272f;
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid var(--primary-color);
+	box-shadow: 0 0.5rem 1rem var(--shadow-color);
 }
 
 .nav-item .active {
-	color: #de272f;
+	color: var(--primary-color);
 }

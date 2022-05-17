@@ -1,11 +1,11 @@
-.cstm__label {
+.home__label {
 	color: #de272f;
 	text-align: center;
 	text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 	font-size: 4rem;
 }
 
-.cstm__sublabel {
+.home__sublabel {
 	padding-top: 6rem;
 	color: #fff;
 	text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
@@ -14,11 +14,11 @@
 }
 
 @media (max-width: 991px) {
-	.cstm__label {
+	.home__label {
 		padding-top: 5rem;
 	}
 
-	.cstm__sublabel {
+	.home__sublabel {
 		text-align: center;
 	}
 }

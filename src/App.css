@@ -5,8 +5,7 @@
 
 .Home {
 	padding-top: 5rem;
-	background: url("./assets/img/Toyota/bg-toyota.jpg") no-repeat center center
-		fixed;
+	background: url("./assets/img/Toyota/bg-toyota.jpg") no-repeat center center fixed;
 	height: 40rem;
 	background-size: cover;
 }

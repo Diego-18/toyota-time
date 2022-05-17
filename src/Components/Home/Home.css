@@ -1,14 +1,14 @@
 .home__label {
-	color: #de272f;
+	color: var(--primary-color);
 	text-align: center;
-	text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+	text-shadow: 0 0.5rem 1rem var(--shadow-color);
 	font-size: 4rem;
 }
 
 .home__sublabel {
 	padding-top: 6rem;
-	color: #fff;
-	text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+	color: var(--secondary-color);
+	text-shadow: 0 0.5rem 1rem var(--shadow-color);
 	font-size: 2rem;
 	font-weight: bold;
 }

@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
 	return (
-		<nav className="navbar fixed-top navbar-expand-lg navbar-light">
+		<nav className="navbar cstm-navbar fixed-top navbar-expand-lg navbar-light">
 			<div className="container-fluid">
 				<img
 					src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c4a3.png"

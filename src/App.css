@@ -17,6 +17,11 @@
 	height: 100vh;
 }
 
+.Home,
+.Historia {
+	color: var(--primary-color);
+}
+
 .LandCruiser {
 	background: var(--primary-color);
 	color: var(--secondary-color);
@@ -27,8 +32,9 @@
 	color: var(--primary-color);
 }
 
+
+
 .cstm-container__label {
-	color: var(--primary-color);
 	text-align: center;
 	text-shadow: 0 0.5rem 1rem var(--shadow-color);
 	font-size: 4rem;

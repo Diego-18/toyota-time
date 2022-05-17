@@ -6,7 +6,7 @@ export default function LandCruiser() {
 
 	return (
 		<div className="LandCruiser">
-			<div className="container cstm__container p-3">
+			<div className="container cstm-container p-3">
 				<img
 					src="https://i.pinimg.com/originals/36/56/ab/3656ab097dace4c437d105486f8da4a2.png"
 					alt="logo-toyota"
@@ -17,7 +17,7 @@ export default function LandCruiser() {
 				{infoLandCruiser.map((info, index) => {
 					return (
 						<div className="container" key={index}>
-							<h1 className="cstm__label text-white">
+							<h1 className="cstm-container__label text-white">
 								{info.name}
 							</h1>
 							<div className="row p-2">

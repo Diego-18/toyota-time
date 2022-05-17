@@ -14,6 +14,7 @@
 	background: url("./assets/img/Toyota/bg-toyota.jpg") no-repeat center center fixed;
 	height: 40rem;
 	background-size: cover;
+	height: 100vh;
 }
 
 .LandCruiser {
@@ -26,7 +27,30 @@
 	color: var(--primary-color);
 }
 
+.cstm-container__label {
+	color: var(--primary-color);
+	text-align: center;
+	text-shadow: 0 0.5rem 1rem var(--shadow-color);
+	font-size: 4rem;
+}
+
+.cstm-container__sublabel {
+	padding-top: 6rem;
+	color: var(--secondary-color);
+	text-shadow: 0 0.5rem 1rem var(--shadow-color);
+	font-size: 2rem;
+	font-weight: bold;
+}
+
 @media (max-width: 991px) {
+	.cstm-container__label {
+		padding-top: 5rem;
+	}
+
+	.cstm-container__sublabel {
+		text-align: center;
+	}
+
 	.Home {
 		height: 100rem;
 	}

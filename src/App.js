@@ -4,8 +4,7 @@ import "./App.css";
 
 import Home from "./Components/Home/Home";
 import Historia from "./Components/Historia/Historia";
-import LandCruiser from "./Components/LandCruiser/LandCruiser";
-import Corolla from "./Components/Corolla/Corolla";
+import CarsModel from "./Components/CarsModel/CarsModel";
 
 function App() {
 	return (
@@ -13,8 +12,8 @@ function App() {
 			<Navbar />
 			<Home />
 			<Historia />
-			<LandCruiser />
-			<Corolla />
+			<CarsModel model="LandCruiser" />
+			<CarsModel model="Corolla" />
 		</div>
 	);
 }

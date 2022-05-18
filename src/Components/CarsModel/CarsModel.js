@@ -1,5 +1,6 @@
 import React from 'react';
 import './CarsModel.css';
+import CarsModelDetails from '../CarsModelDetails/CarsModelDetails';
 
 export default function CarsModel(props) {
     const model = props.model;
@@ -39,6 +40,7 @@ export default function CarsModel(props) {
                     );
                 })}
             </div>
+            <CarsModelDetails model={model} />
         </div>
     );
 }

@@ -24,9 +24,9 @@ export default function CarsModelDetails(props) {
                         {info.modelos.map((modelo, index) => {
                             count++;
                             return (
-                                <div className="container-cars-model" >
+                                <div className="container-cars-model" key={index}>
                                     <div
-                                        className="card bg-dark text-white cars-card" key={index}
+                                        className="card bg-dark text-white cars-card"
                                     >
                                         <img
                                             src={img[count]}

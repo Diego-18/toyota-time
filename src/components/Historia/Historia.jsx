@@ -1,4 +1,3 @@
-import React from "react";
 import CardDetails from "../CardDetails/CardDetails";
 
 export default function Historia() {

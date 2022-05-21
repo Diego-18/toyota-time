@@ -1,9 +1,8 @@
-import React from "react";
 import "./CardDetails.css";
 import img from "../../assets/img";
+import infoToyota from "../../assets/data/infoToyota.json";
 
 export default function CardDetails() {
-	const infoToyota = require("../../assets/data/infoToyota.json");
 	let count = -1;
 
 	return (

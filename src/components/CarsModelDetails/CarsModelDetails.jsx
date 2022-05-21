@@ -1,6 +1,7 @@
-import React from 'react';
 import img from "../../assets/img";
 import './CarsModelDetails.css';
+import infoLandCruiser from '../../assets/data/infoLandCruiser.json';
+import infoCorolla from '../../assets/data/infoCorolla.json';
 
 export default function CarsModelDetails(props) {
     const model = props.model;
@@ -8,11 +9,11 @@ export default function CarsModelDetails(props) {
     let count = 0;
 
     if (model === "LandCruiser") {
-        info = require("../../assets/data/infoLandCruiser.json");
+        info = infoLandCruiser;
         count = 41;
     }
     else if (model === "Corolla") {
-        info = require("../../assets/data/infoCorolla.json");
+        info = infoCorolla;
         count = 49;
     }
 

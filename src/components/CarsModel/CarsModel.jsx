@@ -1,16 +1,17 @@
-import React from 'react';
 import './CarsModel.css';
 import CarsModelDetails from '../CarsModelDetails/CarsModelDetails';
+import infoLandCruiser from '../../assets/data/infoLandCruiser.json';
+import infoCorolla from '../../assets/data/infoCorolla.json';
 
 export default function CarsModel(props) {
     const model = props.model;
     let info = "";
 
     if (model === "LandCruiser") {
-        info = require("../../assets/data/infoLandCruiser.json");
+        info = infoLandCruiser;
     }
     else if (model === "Corolla") {
-        info = require("../../assets/data/infoCorolla.json");
+        info = infoCorolla;
     }
 
     return (

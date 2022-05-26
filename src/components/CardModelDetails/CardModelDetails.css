@@ -37,7 +37,7 @@
 
 .cstm-card__years {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 20px !important;
     text-align: left;
 }
 
@@ -99,7 +99,6 @@
 
 .cstm-card__body p {
     color: var(--secondary-color);
-    font-size: .2rem;
     line-height: 1.5;
     width: 100%;
     margin-top: auto;

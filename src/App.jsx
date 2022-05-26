@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import Historia from "./components/Historia/Historia";
-import CarsModel from "./components/CarsModel/CarsModel";
+import CardModel from "./components/CardModel/CardModel";
 
 // Style
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,9 +12,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Home />
-      <Historia />
-      <CarsModel model="LandCruiser" />
-      <CarsModel model="Corolla" />
+      <CardModel model="Historia" />
+      <CardModel model="LandCruiser" />
+      <CardModel model="Corolla" />
     </div>
   )
 }

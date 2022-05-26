@@ -2,20 +2,20 @@
     margin-right: 0 !important;
 }
 
-.container-cars {
+.container-details {
     margin: 0 auto;
     width: 100%;
-    padding: 0rem 7rem;
+    padding: 2rem;
 }
 
-.container-cars-model {
-    display: inline-flex;
-    flex-direction: row;
+.container-details-item {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.cars-card {
+.cstm-card {
     margin: 0.5rem;
     border: 2px solid var(--primary-color);
     box-shadow: 0 0.5rem 1rem var(--shadow-color);
@@ -23,25 +23,25 @@
     overflow: hidden;
 }
 
-.cars-card__img {
+.cstm-card__img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.cars-card,
-.cars-card__img {
-    width: 30rem;
-    height: 20rem;
+.cstm-card,
+.cstm-card__img {
+    width: 32rem;
+    height: 24rem;
 }
 
-.cars-card__years {
+.cstm-card__years {
     font-weight: bold;
     font-size: 2rem;
     text-align: left;
 }
 
-.cars-card img {
+.cstm-card img {
     transition: all 400ms ease-out;
     will-change: transform;
     -webkit-transition: all 400ms ease-out;
@@ -50,7 +50,7 @@
     -o-transition: all 400ms ease-out;
 }
 
-.cars-card .cars-card__body {
+.cstm-card .cstm-card__body {
     position: absolute;
     top: 0;
     width: 100%;
@@ -66,17 +66,17 @@
     -o-transition: all 400ms ease-out;
 }
 
-.cars-card:hover>.cars-card__body {
+.cstm-card:hover>.cstm-card__body {
     opacity: 1;
     visibility: visible;
 }
 
-.cars-card:hover>.cars-card__body h5 {
-    margin-top: 1rem;
+.cstm-card:hover>.cstm-card__body h5 {
+    margin: .2rem 0rem;
     text-align: left;
 }
 
-.cars-card:hover>img {
+.cstm-card:hover>img {
     transform: scale(1.3);
     opacity: 0.4;
     -webkit-transform: scale(1.3);
@@ -85,7 +85,7 @@
     -o-transform: scale(1.3);
 }
 
-.cars-card__body h5 {
+.cstm-card__body h5 {
     text-align: left;
     margin-top: 1rem;
     color: var(--secondary-color);
@@ -97,9 +97,9 @@
     -o-transition: all 400ms ease-out;
 }
 
-.cars-card__body p {
+.cstm-card__body p {
     color: var(--secondary-color);
-    font-size: 1rem;
+    font-size: .2rem;
     line-height: 1.5;
     width: 100%;
     margin-top: auto;
@@ -107,7 +107,8 @@
 }
 
 @media screen and (max-width: 991px) {
-    .container-cars {
+
+    .container-details {
         padding: 0rem 2rem;
     }
 }

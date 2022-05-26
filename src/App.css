@@ -43,9 +43,11 @@
 .cstm-container__sublabel {
 	padding-top: 6rem;
 	color: var(--secondary-color);
-	text-shadow: 0 0.5rem 1rem var(--shadow-color);
+	text-shadow: 0 0 .5rem var(--primary-color);
 	font-size: 2rem;
 	font-weight: bold;
+	/* -webkit-text-stroke: .5px var(--primary-color); */
+	/* text-shadow: 0 0 4px red; */
 }
 
 @media (max-width: 991px) {

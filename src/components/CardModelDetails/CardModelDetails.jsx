@@ -28,7 +28,7 @@ export default function CardModelDetails(props) {
                 count++;
                 if (model === "Historia") {
                     return (
-                        <div className="col-xs-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 container-details" key={index}>
+                        <div className="col-xs-12 col-sm-12 col-md-4 col-xl-5 col-lg-4 container-details" key={index}>
                             <div className="container-details-item">
                                 <div className="card bg-dark text-white cstm-card">
                                     <img src={img[count]} className="card-img cstm-card__img" alt="img_history"/>
@@ -51,7 +51,7 @@ export default function CardModelDetails(props) {
                             info.modelos.map((modelo, index) => {
                                 count++;
                                 return (
-                                    <div className="col-xs-12 col-sm-12 col-md-4 col-xl-4 col-lg-4 container-details-item" key={index}>
+                                    <div className="col-xs-12 col-sm-12 col-md-4 col-xl-5 col-lg-4 container-details-item" key={index}>
                                         <div
                                             className="card bg-dark text-white cstm-card"
                                         >

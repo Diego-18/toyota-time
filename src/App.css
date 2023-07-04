@@ -11,7 +11,8 @@
 
 .Home {
 	padding-top: 5rem;
-	background: url("./assets/img/Toyota/bg-toyota.jpg") no-repeat center center fixed;
+	background: url("./assets/img/Toyota/bg-toyota.jpg") no-repeat center center
+		fixed;
 	height: 40rem;
 	background-size: cover;
 	height: 100vh;
@@ -32,22 +33,19 @@
 	color: var(--primary-color);
 }
 
-
-
 .cstm-container__label {
 	text-align: center;
 	text-shadow: 0 0.5rem 1rem var(--shadow-color);
 	font-size: 4rem;
+	font-weight: 700;
 }
 
 .cstm-container__sublabel {
 	padding-top: 6rem;
 	color: var(--secondary-color);
-	text-shadow: 0 0 .5rem var(--primary-color);
+	text-shadow: 0 0 0.5rem var(--primary-color);
 	font-size: 2rem;
 	font-weight: bold;
-	/* -webkit-text-stroke: .5px var(--primary-color); */
-	/* text-shadow: 0 0 4px red; */
 }
 
 @media (max-width: 991px) {

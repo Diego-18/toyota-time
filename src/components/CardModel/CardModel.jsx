@@ -1,19 +1,19 @@
-import React from 'react';
-import './CardModel.css';
-import CardModelDetails from '../CardModelDetails/CardModelDetails';
-import infoLandCruiser from '../../assets/data/infoLandCruiser.json';
-import infoCorolla from '../../assets/data/infoCorolla.json';
+import React from "react";
+import "./CardModel.css";
+import CardModelDetails from "../CardModelDetails/CardModelDetails";
+import infoLandCruiser from "../../assets/data/infoLandCruiser.json";
+import infoCorolla from "../../assets/data/infoCorolla.json";
 
 const logoUrl =
-	'https://i.pinimg.com/originals/36/56/ab/3656ab097dace4c437d105486f8da4a2.png';
+	"https://i.pinimg.com/originals/36/56/ab/3656ab097dace4c437d105486f8da4a2.png";
 
 export default function CardModel(props) {
 	const { model } = props;
 	let info;
 
-	if (model === 'LandCruiser') {
+	if (model === "LandCruiser") {
 		info = infoLandCruiser;
-	} else if (model === 'Corolla') {
+	} else if (model === "Corolla") {
 		info = infoCorolla;
 	}
 
@@ -40,9 +40,7 @@ export default function CardModel(props) {
 						))
 					) : (
 						<div>
-							<h1 className="cstm-container__label">
-								Modelo no encontrado
-							</h1>
+							<h1 className="cstm-container__label">Historia</h1>
 						</div>
 					)}
 				</div>

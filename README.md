@@ -31,7 +31,7 @@ Then open the browser with the following address: <a href="http://localhost:3000
 ```
 docker-compose up
 ```
-Note the name of the container will be: **super-mario-movie**
+Note the name of the container will be: **toyota-time**
 
 3 - Verify that the container has been created and is running correctly with the following command:
 

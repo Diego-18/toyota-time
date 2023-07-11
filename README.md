@@ -22,12 +22,32 @@ npm run preview
 ```
 Then open the browser with the following address: <a href="http://localhost:3000" target="__blank">http://localhost:3000</a>
 
+## Use with Docker
+
+1 - The repository is downloaded.
+
+2 - Execute the following command in the project directory:
+
+```
+docker-compose up
+```
+Note the name of the container will be: **super-mario-movie**
+
+3 - Verify that the container has been created and is running correctly with the following command:
+
+```
+docker ps
+```
+
+4 - To access the data we place the following addresses in our browser with direction <http://localhost:3000>.
+
 ## Technologies used
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![VITE](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=%23FFF)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## Browsers support
 
